@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+
+<!-- this is a prototype gallery page (gallery.html)for the chromaticgirraffes website -->
+
+<html>
+	<head>
+		<title>ChromaticGiraffes</title>
+		<link rel="stylesheet" type="text/css" href="./css/index.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<script src="./javascript/Cookie.js"></script>
+		<script src="https://code.jquery.com/jquery-2.1.0.js"></script>
+		<script type="text/javascript" src="./javascript/gallery.js"></script>
+	</head>
+	
+	<body onload="onLoad()">
+
+		<!--TODO: Header will contain vectorized logo/graphic and name of website-->
+		<header>
+			<img src="./images/headerImage.PNG" alt="header image" id="headerImg">
+		</header>
+
+		<div id="socialMedia">
+			<a href="#" class="fa fa-facebook" target="_blank"></a>
+			<br>
+			<a href="#" class="fa fa-twitter" target="_blank"></a>
+			<br>
+			<a href="https://www.instagram.com/chromaticgiraffes/" class="fa fa-instagram" target="_blank"></a>
+			<br>
+			<a href="http://chromaticgiraffes.tumblr.com/" class="fa fa-tumblr" target="_blank"></a>
+		</div>
+
+		<!--Contains everything on the webpage between the header and the footer.-->
+		<div id="wrapper">
+
+			<!--Navigation bar with all 5 navigation links-->
+			<!--Active denotes which page user currently on for css styling-->
+			<nav>
+				<ul>
+					<li><a href="./index.html">Home</a></li>
+					<li><a class="active" href="./gallery.html">Gallery</a></li>
+					<li><a href="art.html">Art Pieces</a></li>
+					<li><a href="./about.html">About</a></li>
+					<li><a href="./contact.html">Contact</a></li>
+				</ul>
+			</nav>
+
+
+			<!--Everything below the navigation bar in the wrapper-->
+			<div id="content">
+
+				<h2>Sketchbook 1</h2>
+				
+				<div class="slideshow-container">
+					<div class="mySlides" style="display: block;">
+						<div class="numbertext">1 / 51</div>
+						<img src="./images/DarilynSketchbook1/Page_0001.jpg" alt="page 1">
+					</div>
+
+					<div class="mySlides">
+						<div class="numbertext">2 / 51</div>
+						<img src="./images/DarilynSketchbook1/Page_0002.jpg" alt="page 2">
+					</div>
+
+					<div class="mySlides">
+						<div class="numbertext">3 / 51</div>
+						<img src="./images/DarilynSketchbook1/Page_0003.jpg" alt="page 3">
+					</div>
+
+					<div class="mySlides">
+						<div class="numbertext">4 / 51</div>
+						<img src="./images/DarilynSketchbook1/Page_0004.jpg" alt="page 4">
+					</div>
+
+					<div class="mySlides">
+						<div class="numbertext">5 / 51</div>
+						<img src="./images/DarilynSketchbook1/Page_0005.jpg" alt="page 5">
+					</div>
+
+					<div class="mySlides">
+						<div class="numbertext">6 / 51</div>
+						<img src="./images/DarilynSketchbook1/Page_0006.jpg" alt="page 6">
+					</div>
+
+					<div class="mySlides">
+						<div class="numbertext">7 / 51</div>
+						<img src="./images/DarilynSketchbook1/Page_0007.jpg" alt="page 7">
+					</div>
+
+					<div class="mySlides">
+						<div class="numbertext">8 / 51</div>
+						<img src="./images/DarilynSketchbook1/Page_0008.jpg" alt="page 8">
+					</div>
+
+					<div class="mySlides">
+						<div class="numbertext">9 / 51</div>
+						<img src="./images/DarilynSketchbook1/Page_0009.jpg" alt="page 9">
+					</div>
+
+					<div class="mySlides">
+						<div class="numbertext">10 / 51</div>
+						<img src="./images/DarilynSketchbook1/Page_0010.jpg" alt="page 10">
+					</div>
+
+					<div class="mySlides">
+						<div class="numbertext">11 / 51</div>
+						<img src="./images/DarilynSketchbook1/Page_0011.jpg" alt="page 11">
+					</div>
+
+					<div class="mySlides">
+						<div class="numbertext">12 / 51</div>
+						<img src="./images/DarilynSketchbook1/Page_0012.jpg" alt="page 12">
+					</div>
+
+					<div class="mySlides">
+						<div class="numbertext">13 / 51</div>
+						<img src="./images/DarilynSketchbook1/Page_0013.jpg" alt="page 13">
+					</div>
+
+					<div class="mySlides">
+						<div class="numbertext">14 / 51</div>
+						<img src="./images/DarilynSketchbook1/Page_0014.jpg" alt="page 14">
+					</div>
+
+					<div class="mySlides">
+						<div class="numbertext">15 / 51</div>
+						<img src="./images/DarilynSketchbook1/Page_0015.jpg" alt="page 15">
+					</div>
+
+					<div class="mySlides">
+						<div class="numbertext">16 / 51</div>
+						<img src="./images/DarilynSketchbook1/Page_0016.jpg" alt="page 16">
+					</div>
+
+					<div class="mySlides">
+						<div class="numbertext">17 / 51</div>
+						<img src="./images/DarilynSketchbook1/Page_0017.jpg" alt="page 17">
+					</div>
+
+					<div class="mySlides">
+						<div class="numbertext">18 / 51</div>
+						<img src="./images/DarilynSketchbook1/Page_0018.jpg" alt="page 18">
+					</div>
+
+					<div class="mySlides">
+						<div class="numbertext">19 / 51</div>
+						<img src="./images/DarilynSketchbook1/Page_0019.jpg" alt="page 19">
+					</div>
+
+					<div class="mySlides">
+						<div class="numbertext">20 / 51</div>
+						<img src="./images/DarilynSketchbook1/Page_0020.jpg" alt="page 20">
+					</div>
+
+					<div class="mySlides">
+						<div class="numbertext">21 / 51</div>
+						<img src="./images/DarilynSketchbook1/Page_0021.jpg" alt="page 21">
+					</div>
+
+					<div class="mySlides">
+						<div class="numbertext">22 / 51</div>
+						<img src="./images/DarilynSketchbook1/Page_0022.jpg" alt="page 22">
+					</div>
+
+					<div class="mySlides">
+						<div class="numbertext">23 / 51</div>
+						<img src="./images/DarilynSketchbook1/Page_0023.jpg" alt="page 23">
+					</div>
+
+					<div class="mySlides">
+						<div class="numbertext">24 / 51</div>
+						<img src="./images/DarilynSketchbook1/Page_0024.jpg" alt="page 24">
+					</div>
+
+					<div class="mySlides">
+						<div class="numbertext">25 / 51</div>
+						<img src="./images/DarilynSketchbook1/Page_0025.jpg" alt="page 25">
+					</div>
+
+					<div class="mySlides">
+						<div class="numbertext">26 / 51</div>
+						<img src="./images/DarilynSketchbook1/Page_0026.jpg" alt="page 26">
+					</div>
+
+					<div class="mySlides">
+						<div class="numbertext">27 / 51</div>
+						<img src="./images/DarilynSketchbook1/Page_0027.jpg" alt="page 27">
+					</div>
+
+					<div class="mySlides">
+						<div class="numbertext">28 / 51</div>
+						<img src="./images/DarilynSketchbook1/Page_0028.jpg" alt="page 28">
+					</div>
+
+					<div class="mySlides">
+						<div class="numbertext">29 / 51</div>
+						<img src="./images/DarilynSketchbook1/Page_0029.jpg" alt="page 29">
+					</div>
+
+					<div class="mySlides">
+						<div class="numbertext">30 / 51</div>
+						<img src="./images/DarilynSketchbook1/Page_0030.jpg" alt="page 30">
+					</div>
+
+					<div class="mySlides">
+						<div class="numbertext">31 / 51</div>
+						<img src="./images/DarilynSketchbook1/Page_0031.jpg" alt="page 31">
+					</div>
+
+					<div class="mySlides">
+						<div class="numbertext">32 / 51</div>
+						<img src="./images/DarilynSketchbook1/Page_0032.jpg" alt="page 32">
+					</div>
+
+					<div class="mySlides">
+						<div class="numbertext">33 / 51</div>
+						<img src="./images/DarilynSketchbook1/Page_0033.jpg" alt="page 33">
+					</div>
+
+					<div class="mySlides">
+						<div class="numbertext">34 / 51</div>
+						<img src="./images/DarilynSketchbook1/Page_0034.jpg" alt="page 34">
+					</div>
+
+					<div class="mySlides">
+						<div class="numbertext">35 / 51</div>
+						<img src="./images/DarilynSketchbook1/Page_0035.jpg" alt="page 35">
+					</div>
+
+					<div class="mySlides">
+						<div class="numbertext">36 / 51</div>
+						<img src="./images/DarilynSketchbook1/Page_0036.jpg" alt="page 36">
+					</div>
+
+					<div class="mySlides">
+						<div class="numbertext">37 / 51</div>
+						<img src="./images/DarilynSketchbook1/Page_0037.jpg" alt="page 37">
+					</div>
+
+					<div class="mySlides">
+						<div class="numbertext">38 / 51</div>
+						<img src="./images/DarilynSketchbook1/Page_0038.jpg" alt="page 38">
+					</div>
+
+					<div class="mySlides">
+						<div class="numbertext">39 / 51</div>
+						<img src="./images/DarilynSketchbook1/Page_0039.jpg" alt="page 39">
+					</div>
+
+					<div class="mySlides">
+						<div class="numbertext">40 / 51</div>
+						<img src="./images/DarilynSketchbook1/Page_0040.jpg" alt="page 40">
+					</div>
+
+					<div class="mySlides">
+						<div class="numbertext">41 / 51</div>
+						<img src="./images/DarilynSketchbook1/Page_0041.jpg" alt="page 41">
+					</div>
+
+					<div class="mySlides">
+						<div class="numbertext">42 / 51</div>
+						<img src="./images/DarilynSketchbook1/Page_0042.jpg" alt="page 42">
+					</div>
+
+					<div class="mySlides">
+						<div class="numbertext">43 / 51</div>
+						<img src="./images/DarilynSketchbook1/Page_0043.jpg" alt="page 43">
+					</div>
+
+					<div class="mySlides">
+						<div class="numbertext">44 / 51</div>
+						<img src="./images/DarilynSketchbook1/Page_0044.jpg" alt="page 44">
+					</div>
+
+					<div class="mySlides">
+						<div class="numbertext">45 / 51</div>
+						<img src="./images/DarilynSketchbook1/Page_0045.jpg" alt="page 45">
+					</div>
+
+					<div class="mySlides">
+						<div class="numbertext">46 / 51</div>
+						<img src="./images/DarilynSketchbook1/Page_0046.jpg" alt="page 46">
+					</div>
+
+					<div class="mySlides">
+						<div class="numbertext">47 / 51</div>
+						<img src="./images/DarilynSketchbook1/Page_0047.jpg" alt="page 47">
+					</div>
+
+					<div class="mySlides">
+						<div class="numbertext">48 / 51</div>
+						<img src="./images/DarilynSketchbook1/Page_0048.jpg" alt="page 48">
+					</div>
+
+					<div class="mySlides">
+						<div class="numbertext">49 / 51</div>
+						<img src="./images/DarilynSketchbook1/Page_0049.jpg" alt="page 49">
+					</div>
+
+					<div class="mySlides">
+						<div class="numbertext">50 / 51</div>
+						<img src="./images/DarilynSketchbook1/Page_0050.jpg" alt="page 50">
+					</div>
+
+					<div class="mySlides">
+						<div class="numbertext">51 / 51</div>
+						<img src="./images/DarilynSketchbook1/Page_0051.jpg" alt="page 51">
+					</div>
+
+
+					<button class="prev" onclick="plusSlides(-1)">&#10094;</button>
+					<button class="next" onclick="plusSlides(1)">&#10095;</button>
+				</div>
+
+				<br>
+
+				<div id= "thumbnailContainer">
+					<img class= "thumbnail" src="./images/DarilynSketchbook1/Page_0001.jpg" alt="page 1" onclick="currentSlide(1)">
+					<img class= "thumbnail" src="./images/DarilynSketchbook1/Page_0002.jpg" alt="page 2" onclick="currentSlide(2)">
+					<img class= "thumbnail" src="./images/DarilynSketchbook1/Page_0003.jpg" alt="page 3" onclick="currentSlide(3)">
+					<img class= "thumbnail" src="./images/DarilynSketchbook1/Page_0004.jpg" alt="page 4" onclick="currentSlide(4)">
+					<img class= "thumbnail" src="./images/DarilynSketchbook1/Page_0005.jpg" alt="page 5" onclick="currentSlide(5)">
+					<img class= "thumbnail" src="./images/DarilynSketchbook1/Page_0006.jpg" alt="page 6" onclick="currentSlide(6)">
+					<img class= "thumbnail" src="./images/DarilynSketchbook1/Page_0007.jpg" alt="page 7" onclick="currentSlide(7)">
+					<img class= "thumbnail" src="./images/DarilynSketchbook1/Page_0008.jpg" alt="page 8" onclick="currentSlide(8)">
+					<img class= "thumbnail" src="./images/DarilynSketchbook1/Page_0009.jpg" alt="page 9" onclick="currentSlide(9)">
+					<img class= "thumbnail" src="./images/DarilynSketchbook1/Page_0010.jpg" alt="page 10" onclick="currentSlide(10)">
+					<img class= "thumbnail" src="./images/DarilynSketchbook1/Page_0011.jpg" alt="page 11" onclick="currentSlide(11)">
+					<img class= "thumbnail" src="./images/DarilynSketchbook1/Page_0012.jpg" alt="page 12" onclick="currentSlide(12)">
+					<img class= "thumbnail" src="./images/DarilynSketchbook1/Page_0013.jpg" alt="page 13" onclick="currentSlide(13)">
+					<img class= "thumbnail" src="./images/DarilynSketchbook1/Page_0014.jpg" alt="page 14" onclick="currentSlide(14)">
+					<img class= "thumbnail" src="./images/DarilynSketchbook1/Page_0015.jpg" alt="page 15" onclick="currentSlide(15)">
+					<img class= "thumbnail" src="./images/DarilynSketchbook1/Page_0016.jpg" alt="page 16" onclick="currentSlide(16)">
+					<img class= "thumbnail" src="./images/DarilynSketchbook1/Page_0017.jpg" alt="page 17" onclick="currentSlide(17)">
+					<img class= "thumbnail" src="./images/DarilynSketchbook1/Page_0018.jpg" alt="page 18" onclick="currentSlide(18)">
+					<img class= "thumbnail" src="./images/DarilynSketchbook1/Page_0019.jpg" alt="page 19" onclick="currentSlide(19)">
+					<img class= "thumbnail" src="./images/DarilynSketchbook1/Page_0020.jpg" alt="page 20" onclick="currentSlide(20)">
+					<img class= "thumbnail" src="./images/DarilynSketchbook1/Page_0021.jpg" alt="page 21" onclick="currentSlide(21)">
+					<img class= "thumbnail" src="./images/DarilynSketchbook1/Page_0022.jpg" alt="page 22" onclick="currentSlide(22)">
+					<img class= "thumbnail" src="./images/DarilynSketchbook1/Page_0023.jpg" alt="page 23" onclick="currentSlide(23)">
+					<img class= "thumbnail" src="./images/DarilynSketchbook1/Page_0024.jpg" alt="page 24" onclick="currentSlide(24)">
+					<img class= "thumbnail" src="./images/DarilynSketchbook1/Page_0025.jpg" alt="page 25" onclick="currentSlide(25)">
+					<img class= "thumbnail" src="./images/DarilynSketchbook1/Page_0026.jpg" alt="page 26" onclick="currentSlide(26)">
+					<img class= "thumbnail" src="./images/DarilynSketchbook1/Page_0027.jpg" alt="page 27" onclick="currentSlide(27)">
+					<img class= "thumbnail" src="./images/DarilynSketchbook1/Page_0028.jpg" alt="page 28" onclick="currentSlide(28)">
+					<img class= "thumbnail" src="./images/DarilynSketchbook1/Page_0029.jpg" alt="page 29" onclick="currentSlide(29)">
+					<img class= "thumbnail" src="./images/DarilynSketchbook1/Page_0030.jpg" alt="page 30" onclick="currentSlide(30)">
+					<img class= "thumbnail" src="./images/DarilynSketchbook1/Page_0031.jpg" alt="page 31" onclick="currentSlide(31)">
+					<img class= "thumbnail" src="./images/DarilynSketchbook1/Page_0032.jpg" alt="page 32" onclick="currentSlide(32)">
+					<img class= "thumbnail" src="./images/DarilynSketchbook1/Page_0033.jpg" alt="page 33" onclick="currentSlide(33)">
+					<img class= "thumbnail" src="./images/DarilynSketchbook1/Page_0034.jpg" alt="page 34" onclick="currentSlide(34)">
+					<img class= "thumbnail" src="./images/DarilynSketchbook1/Page_0035.jpg" alt="page 35" onclick="currentSlide(35)">
+					<img class= "thumbnail" src="./images/DarilynSketchbook1/Page_0036.jpg" alt="page 36" onclick="currentSlide(36)">
+					<img class= "thumbnail" src="./images/DarilynSketchbook1/Page_0037.jpg" alt="page 37" onclick="currentSlide(37)">
+					<img class= "thumbnail" src="./images/DarilynSketchbook1/Page_0038.jpg" alt="page 38" onclick="currentSlide(38)">
+					<img class= "thumbnail" src="./images/DarilynSketchbook1/Page_0039.jpg" alt="page 39" onclick="currentSlide(39)">
+					<img class= "thumbnail" src="./images/DarilynSketchbook1/Page_0040.jpg" alt="page 40" onclick="currentSlide(40)">
+					<img class= "thumbnail" src="./images/DarilynSketchbook1/Page_0041.jpg" alt="page 41" onclick="currentSlide(41)">
+					<img class= "thumbnail" src="./images/DarilynSketchbook1/Page_0042.jpg" alt="page 42" onclick="currentSlide(42)">
+					<img class= "thumbnail" src="./images/DarilynSketchbook1/Page_0043.jpg" alt="page 43" onclick="currentSlide(43)">
+					<img class= "thumbnail" src="./images/DarilynSketchbook1/Page_0044.jpg" alt="page 44" onclick="currentSlide(44)">
+					<img class= "thumbnail" src="./images/DarilynSketchbook1/Page_0045.jpg" alt="page 45" onclick="currentSlide(45)">
+					<img class= "thumbnail" src="./images/DarilynSketchbook1/Page_0046.jpg" alt="page 46" onclick="currentSlide(46)">
+					<img class= "thumbnail" src="./images/DarilynSketchbook1/Page_0047.jpg" alt="page 47" onclick="currentSlide(47)">
+					<img class= "thumbnail" src="./images/DarilynSketchbook1/Page_0048.jpg" alt="page 48" onclick="currentSlide(48)">
+					<img class= "thumbnail" src="./images/DarilynSketchbook1/Page_0049.jpg" alt="page 49" onclick="currentSlide(49)">
+					<img class= "thumbnail" src="./images/DarilynSketchbook1/Page_0050.jpg" alt="page 50" onclick="currentSlide(50)">
+					<img class= "thumbnail" src="./images/DarilynSketchbook1/Page_0051.jpg" alt="page 51" onclick="currentSlide(51)">
+					
+					
+				</div>
+
+			</div>
+	
+		</div>
+
+
+		<!--Contains copyright info and both my client and my names-->
+		<!--TODO: Add social media icons and links to client's social media-->
+		<footer>
+			<div id = "footer">
+				<p>This page is designed for Darilyn Mckeever by Elizabeth Olesen <br>
+				&copy; 2017</p>
+			</div>
+		</footer>
+	</body>
+	
+</html>
