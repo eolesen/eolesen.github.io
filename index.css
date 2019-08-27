@@ -49,8 +49,45 @@ body {
 }
 
 
+/*portfolio stuff*/
+#wrapper{
+    width: 100%;
+    text-align: center;
+}
+#container {
+    width: 90%;
+    display: inline-block
+    /*text-align: center;*/
+}
+
+#container img{
+    width: 100%;
+}
+
+#left {
+    float:left;
+    width: 30%;
+    height: 200px;
+    background: #ff0000;
+}
+
+#center {
+    display: inline-block;
+    margin:0 auto;
+    width: 30%;
+    height: 200px;
+    background: #00ff00;
+}
+
+#right {
+    float:right;
+    width: 30%;
+    height: 200px;
+    background: #0000ff;
+}
+
 /*for narrow screens (phones etc..)*/
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 700px) {
     .nav li {
         width: 120px;
         border-bottom: none;
